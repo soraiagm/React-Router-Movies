@@ -33,7 +33,7 @@ const MovieList = props => {
 function MovieDetails({ movie }) {
   
   return (
-    <Link to ={`/movies/${movie.id}`}>
+    <Link className="movies" to ={`/movies/${movie.id}`}>
         <MovieCard movie={movie}/>
     </Link>
     
