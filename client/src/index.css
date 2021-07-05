@@ -59,7 +59,7 @@ body {
   right: 25px;
   border: 1px solid grey;
   padding: 5px 10px;
-  background-color: lightseagreen;
+  background-color: #a9b8eb;
 }
 .save-button:hover {
   background-color: green;
@@ -68,5 +68,48 @@ body {
 
 .home-button {
   padding: 5px 10px;
-  background-color: lightskyblue;
+  background-color: #a9b8eb;
 }
+
+.movie-list {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.movies {
+  height: auto;
+  border-radius: 5px;
+  background: #b6c5f0;
+  text-decoration: none;
+}
+
+h2 {
+  color: #415187;
+  margin: 0;
+  padding: 10px;
+}
+
+h3 {
+  color: #293e85;
+}
+
+.movie-director {
+  color: #293e85;
+}
+
+.movie-metascore {
+  color: #293e85;
+}
+
+.movie-star {
+  color: #293e85;
+}
+
+div.movie-list {
+  margin-top: 100px;
+}
+
+
